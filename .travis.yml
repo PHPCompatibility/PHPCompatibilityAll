@@ -1,0 +1,30 @@
+sudo: false
+
+dist: trusty
+
+language: php
+
+## Cache composer downloads.
+cache:
+  directories:
+    # Cache directory for older Composer versions.
+    - $HOME/.composer/cache/files
+    # Cache directory for more recent Composer versions.
+    - $HOME/.cache/composer/files
+
+php:
+  - 5.4
+  - 7.2
+
+matrix:
+  fast_finish: true
+
+before_install:
+  # Speed up build time by disabling Xdebug when its not needed.
+  - if [[ $COVERALLS_VERSION == "notset" ]]; then phpenv config-rm xdebug.ini || echo 'No xdebug config.'; fi
+  - composer install
+
+script:
+  # Validate the composer.json file.
+  # @link https://getcomposer.org/doc/03-cli.md#validate
+  - composer validate --no-check-all --with-dependencies --strict

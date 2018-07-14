@@ -1,0 +1,30 @@
+{
+  "name" : "phpcompatibility/phpcompatibility-all",
+  "description" : "A set of external standards for PHP_CodeSniffer that check for PHP version compatibility and can modernize code.",
+  "type" : "phpcodesniffer-standard",
+  "keywords" : [ "compatibility", "phpcs", "standards", "joomla", "wordpress" ],
+  "homepage" : "http://phpcompatibility.com/",
+  "license" : "LGPL-3.0-or-later",
+  "authors" : [ {
+    "name" : "Wim Godden",
+    "role" : "lead"
+  },
+  {
+    "name" : "Juliette Reinders Folmer",
+    "role" : "lead"
+  } ],
+  "support" : {
+    "issues" : "https://github.com/PHPCompatibility/PHPCompatibilityAll/issues",
+    "source" : "https://github.com/PHPCompatibility/PHPCompatibilityAll"
+  },
+  "require" : {
+    "phpcompatibility/php-compatibility" : "*",
+    "phpcompatibility/phpcompatibility-wp" : "*",
+    "phpcompatibility/phpcompatibility-joomla" : "*"
+  },
+  "suggest" : {
+    "dealerdirect/phpcodesniffer-composer-installer": "^0.4.3 || This Composer plugin will sort out the PHPCS 'installed_paths' automatically.",
+    "roave/security-advisories": "dev-master || Helps prevent installing dependencies with known security issues."
+  },
+  "prefer-stable" : true
+}
