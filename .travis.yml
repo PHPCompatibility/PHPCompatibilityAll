@@ -11,14 +11,14 @@ cache:
 
 php:
   - 5.4
-  - 7.2
+  - 7.3
 
 matrix:
   fast_finish: true
 
 before_install:
   # Speed up build time by disabling Xdebug when its not needed.
-  - if [[ $COVERALLS_VERSION == "notset" ]]; then phpenv config-rm xdebug.ini || echo 'No xdebug config.'; fi
+  - phpenv config-rm xdebug.ini || echo 'No xdebug config.'
   - composer install
 
 script:
