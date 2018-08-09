@@ -1,5 +1,5 @@
 [![License](https://poser.pugx.org/PHPCompatibility/phpcompatibility-all/license.png)](https://github.com/PHPCompatibility/PHPCompatibilityAll/blob/master/LICENSE)
-[![Build Status](https://travis-ci.org/PHPCompatibility/PHPCompatibilityAll.png?branch=master)](https://travis-ci.org/PHPCompatibility/PHPCompatibilityAll)
+[![Build Status](https://travis-ci.org/PHPCompatibility/PHPCompatibilityAll.svg?branch=master)](https://travis-ci.org/PHPCompatibility/PHPCompatibilityAll)
 
 # PHPCompatibilityAll
 
