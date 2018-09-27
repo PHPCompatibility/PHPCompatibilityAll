@@ -1,13 +1,18 @@
 <!--
-This repository is only a convenience wrapper to easily install all PHPCompatibility PHPCS standards in one go.
+This repository is only a convenience wrapper to easily install all PHPCompatibility PHP_CodeSniffer standards in one go.
 
 If your issue is related to the PHPCompatibility sniffs, please open an issue in the PHPCompatibility repository: https://github.com/PHPCompatibility/PHPCompatibility/issues
 
-If your issue is related to the PHPCompatibilityJoomla ruleset, please open an issue in the PHPCompatibilityJoomla repository: https://github.com/PHPCompatibility/PHPCompatibilityJoomla/issues
+If your issue is related to a framework specific ruleset, please open an issue in the relevant repository:
+* PHPCompatibilityJoomla: https://github.com/PHPCompatibility/PHPCompatibilityJoomla/issues
+* PHPCompatibilityWP: https://github.com/PHPCompatibility/PHPCompatibilityWP/issues
 
-If your issue is related to the PHPCompatibilityWP ruleset, please open an issue in the PHPCompatibilityWP repository: https://github.com/PHPCompatibility/PHPCompatibilityWP/issues
+If your issue is related to a polyfill specific ruleset, please open an issue in the relevant repository:
+* PHPCompatibilityParagonie: https://github.com/PHPCompatibility/PHPCompatibilityParagonie/issues
+* PHPCompatibilityPasswordCompat: https://github.com/PHPCompatibility/PHPCompatibilityPasswordCompat/issues
+* PHPCompatibilitySymfony: https://github.com/PHPCompatibility/PHPCompatibilitySymfony/issues
 
-Before opening a new issue, please search for duplicate issues to prevent opening a duplicate. If there is already an open issue, please leave a comment there.
+Before opening a new issue, please search for your issue to prevent opening a duplicate. If there is already an open issue, please leave a comment there.
 
 Thanks!
 -->
