@@ -1,8 +1,8 @@
 {
   "name" : "phpcompatibility/phpcompatibility-all",
-  "description" : "A set of external standards for PHP_CodeSniffer that check for PHP version compatibility and can modernize code.",
+  "description" : "A set of rulesets for PHP_CodeSniffer to check for PHP cross-version compatibility issues and opportunities to modernize code in PHP projects.",
   "type" : "phpcodesniffer-standard",
-  "keywords" : [ "compatibility", "phpcs", "standards", "joomla", "wordpress" ],
+  "keywords" : [ "compatibility", "phpcs", "standards", "joomla", "wordpress", "polyfills", "paragonie", "password_compat", "symfony" ],
   "homepage" : "http://phpcompatibility.com/",
   "license" : "LGPL-3.0-or-later",
   "authors" : [ {
@@ -20,10 +20,13 @@
   "require" : {
     "phpcompatibility/php-compatibility" : "*",
     "phpcompatibility/phpcompatibility-wp" : "*",
-    "phpcompatibility/phpcompatibility-joomla" : "*"
+    "phpcompatibility/phpcompatibility-joomla" : "*",
+    "phpcompatibility/phpcompatibility-paragonie" : "*",
+    "phpcompatibility/phpcompatibility-passwordcompat" : "*",
+    "phpcompatibility/phpcompatibility-symfony" : "*"
   },
   "suggest" : {
-    "dealerdirect/phpcodesniffer-composer-installer": "^0.4.3 || This Composer plugin will sort out the PHPCS 'installed_paths' automatically.",
+    "dealerdirect/phpcodesniffer-composer-installer": "^0.4.3 || This Composer plugin will sort out the PHP_CodeSniffer 'installed_paths' automatically.",
     "roave/security-advisories": "dev-master || Helps prevent installing dependencies with known security issues."
   },
   "prefer-stable" : true
