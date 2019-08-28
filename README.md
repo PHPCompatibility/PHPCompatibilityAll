@@ -108,6 +108,12 @@ For more information, visit https://www.gnu.org/copyleft/lesser.html
 
 ## Changelog
 
+### 1.1.1 - 2019-08-29
+
+- The recommended version of the DealerDirect PHPCS Composer plugin is now `^0.5.0`.
+- The rulesets are now also tested against PHP 7.3.
+    Note: full PHP 7.3 support is only available in combination with PHP_CodeSniffer 2.9.2 or 3.3.1+ due to an incompatibility within PHP_CodeSniffer itself.
+
 ### 1.1.0 - 2018-10-07
 
 - Added the new PHPCompatibilityPasswordCompat, PHPCompatibilityParagonie, PHPCompatibilitySymfony rulesets.
