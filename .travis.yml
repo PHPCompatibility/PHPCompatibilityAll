@@ -1,5 +1,3 @@
-sudo: false
-
 dist: trusty
 
 language: php
@@ -11,7 +9,7 @@ cache:
 
 php:
   - 5.4
-  - 7.3
+  - 7.4
 
 matrix:
   fast_finish: true
