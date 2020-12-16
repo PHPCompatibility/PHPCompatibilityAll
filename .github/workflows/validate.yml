@@ -1,0 +1,36 @@
+name: Validate
+
+on:
+  # Run on all pushes and pull requests.
+  push:
+  pull_request:
+  # Also run this workflow on day 15 of every month as the repo isn't that active.
+  schedule:
+    - cron: '0 0 15 * *'
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    strategy:
+      fail-fast: true
+      matrix:
+        php: ['5.4', 'latest']
+
+    name: PHP ${{ matrix.php }}
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Install PHP
+        uses: shivammathur/setup-php@v2
+        with:
+          php-version: ${{ matrix.php }}
+          coverage: none
+
+      - name: Install dependencies
+        run: composer update --no-interaction --no-progress
+
+      - name: Validate Composer installation
+        run: composer validate --no-check-all --strict
