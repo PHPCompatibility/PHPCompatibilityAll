@@ -38,13 +38,13 @@ The minimum _recommended_ version of PHP_CodeSniffer is version 2.6.0.
 
 If you don't have a Composer plugin installed to manage the `installed_paths` setting for PHP_CodeSniffer, run the following from the command-line:
 ```bash
-composer require --dev dealerdirect/phpcodesniffer-composer-installer:"^0.7" phpcompatibility/phpcompatibility-all:*
+composer require --dev dealerdirect/phpcodesniffer-composer-installer:"^0.7" phpcompatibility/phpcompatibility-all:"*"
 composer install
 ```
 
 If you already have a Composer PHP_CodeSniffer plugin installed, run:
 ```bash
-composer require --dev phpcompatibility/phpcompatibility-all:*
+composer require --dev phpcompatibility/phpcompatibility-all:"*"
 composer install
 ```
 
