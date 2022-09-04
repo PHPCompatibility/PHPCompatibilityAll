@@ -109,14 +109,14 @@ For more information, visit https://www.gnu.org/copyleft/lesser.html
 
 ### 1.1.2 - 2021-02-16
 
-- The recommended version of the [DealerDirect PHPCS Composer plugin] is now `^0.7.0`, which offers compatibility with Composer 2.0.
+- The recommended version of the [Composer PHPCS plugin] is now `^0.7.0`, which offers compatibility with Composer 2.0.
 - The rulesets are now also tested against PHP 7.4 and 8.0.
     Note: full PHP 7.4 support is only available in combination with PHP_CodeSniffer >= 3.5.6.
     Note: runtime PHP 8.0 support is only available in combination with PHP_CodeSniffer >= 3.5.7, full support is expected in PHP_CodeSniffer 3.6.0.
 
 ### 1.1.1 - 2019-08-29
 
-- The recommended version of the [DealerDirect PHPCS Composer plugin] is now `^0.5.0`.
+- The recommended version of the [Composer PHPCS plugin] is now `^0.5.0`.
 - The rulesets are now also tested against PHP 7.3.
     Note: full PHP 7.3 support is only available in combination with PHP_CodeSniffer 2.9.2 or 3.3.1+ due to an incompatibility within PHP_CodeSniffer itself.
 
@@ -128,4 +128,4 @@ For more information, visit https://www.gnu.org/copyleft/lesser.html
 
 Initial release containing the PHPCompatibility, PHPCompatibilityJoomla and PHPCompatibilityWP rulesets.
 
-[DealerDirect PHPCS Composer plugin]: https://github.com/Dealerdirect/phpcodesniffer-composer-installer/
+[Composer PHPCS plugin]: https://github.com/PHPCSStandards/composer-installer
