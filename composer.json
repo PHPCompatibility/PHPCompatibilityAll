@@ -2,7 +2,7 @@
   "name" : "phpcompatibility/phpcompatibility-all",
   "description" : "A set of rulesets for PHP_CodeSniffer to check for PHP cross-version compatibility issues and opportunities to modernize code in PHP projects.",
   "type" : "phpcodesniffer-standard",
-  "keywords" : [ "compatibility", "phpcs", "standards", "joomla", "wordpress", "polyfills", "paragonie", "password_compat", "symfony" ],
+  "keywords" : [ "compatibility", "phpcs", "standards", "static analysis", "joomla", "wordpress", "polyfills", "paragonie", "password_compat", "symfony" ],
   "homepage" : "http://phpcompatibility.com/",
   "license" : "LGPL-3.0-or-later",
   "authors" : [ {
