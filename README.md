@@ -107,6 +107,14 @@ For more information, visit https://www.gnu.org/copyleft/lesser.html
 
 ## Changelog
 
+### 1.1.3 - 2022-10-30
+
+- README: Updated the installation instructions for [compatibility with Composer >= 2.2][composer22announce].
+- Composer: The package will now identify itself as a static analysis tool. Thanks [@GaryJones]!
+- Other housekeeping and minor documentation updates.
+
+[composer22announce]: https://blog.packagist.com/composer-2-2/#more-secure-plugin-execution
+
 ### 1.1.2 - 2021-02-16
 
 - The recommended version of the [Composer PHPCS plugin] is now `^0.7.0`, which offers compatibility with Composer 2.0.
@@ -129,3 +137,5 @@ For more information, visit https://www.gnu.org/copyleft/lesser.html
 Initial release containing the PHPCompatibility, PHPCompatibilityJoomla and PHPCompatibilityWP rulesets.
 
 [Composer PHPCS plugin]: https://github.com/PHPCSStandards/composer-installer
+
+[@GaryJones]: https://github.com/GaryJones
