@@ -26,7 +26,7 @@
     "phpcompatibility/phpcompatibility-symfony" : "*"
   },
   "suggest" : {
-    "dealerdirect/phpcodesniffer-composer-installer": "^0.7 || This Composer plugin will sort out the PHP_CodeSniffer 'installed_paths' automatically.",
+    "dealerdirect/phpcodesniffer-composer-installer": "^1.0 || This Composer plugin will sort out the PHP_CodeSniffer 'installed_paths' automatically.",
     "roave/security-advisories": "dev-master || Helps prevent installing dependencies with known security issues."
   },
   "prefer-stable" : true
