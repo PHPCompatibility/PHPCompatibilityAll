@@ -107,6 +107,14 @@ For more information, visit https://www.gnu.org/copyleft/lesser.html
 
 ## Changelog
 
+### 1.1.4 - 2025-01-16
+
+This is a maintenance release.
+
+- The recommended version of the [Composer PHPCS plugin] is now `^1.0.0`.
+- README: Fixed some broken badges.
+- General housekeeping and maintenance. Including a contribution by [@fredden].
+
 ### 1.1.3 - 2022-10-30
 
 - README: Updated the installation instructions for [compatibility with Composer >= 2.2][composer22announce].
@@ -138,4 +146,5 @@ Initial release containing the PHPCompatibility, PHPCompatibilityJoomla and PHPC
 
 [Composer PHPCS plugin]: https://github.com/PHPCSStandards/composer-installer
 
+[@fredden]:   https://github.com/fredden
 [@GaryJones]: https://github.com/GaryJones
