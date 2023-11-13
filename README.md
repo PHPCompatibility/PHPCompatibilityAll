@@ -26,8 +26,8 @@ Convenience package to install all the external PHP_CodeSniffer rulesets which t
 
 ## Requirements
 
-* PHP 5.3+ for use with [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) 2.3.0+.
-* PHP 5.4+ for use with [PHP_CodeSniffer](https://github.com/squizlabs/PHP_CodeSniffer) 3.0.2+.
+* PHP 5.3+ for use with [PHP_CodeSniffer](https://github.com/PHPCSStandards/PHP_CodeSniffer) 2.3.0+.
+* PHP 5.4+ for use with [PHP_CodeSniffer](https://github.com/PHPCSStandards/PHP_CodeSniffer) 3.0.2+.
 * [Composer](https://getcomposer.org/)
 
 Use the latest stable release of PHP_CodeSniffer for the best results.
