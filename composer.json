@@ -15,7 +15,8 @@
   } ],
   "support" : {
     "issues" : "https://github.com/PHPCompatibility/PHPCompatibilityAll/issues",
-    "source" : "https://github.com/PHPCompatibility/PHPCompatibilityAll"
+    "source" : "https://github.com/PHPCompatibility/PHPCompatibilityAll",
+    "security": "https://github.com/PHPCompatibility/PHPCompatibilityAll/security/policy"
   },
   "require" : {
     "phpcompatibility/php-compatibility" : "*",
