@@ -1,5 +1,5 @@
-[![License](https://poser.pugx.org/PHPCompatibility/phpcompatibility-all/license.png)](https://github.com/PHPCompatibility/PHPCompatibilityAll/blob/master/LICENSE)
-[![Build Status](https://github.com/PHPCompatibility/PHPCompatibilityAll/workflows/Validate/badge.svg?branch=master)](https://github.com/PHPCompatibility/PHPCompatibilityAll/actions)
+[![License](https://img.shields.io/github/license/PHPCompatibility/PHPCompatibilityAll?color=00a7a7)](https://github.com/PHPCompatibility/PHPCompatibilityAll/blob/master/LICENSE)
+[![Build Status](https://github.com/PHPCompatibility/PHPCompatibilityAll/actions/workflows/validate.yml/badge.svg?branch=master)](https://github.com/PHPCompatibility/PHPCompatibilityAll/actions/workflows/validate.yml)
 
 # PHPCompatibilityAll
 
@@ -10,17 +10,17 @@ Convenience package to install all the external PHP_CodeSniffer rulesets which t
 
 ### Base ruleset
 
-- [![PHPCompatibility Current Version](https://poser.pugx.org/phpcompatibility/php-compatibility/v/stable.png)](https://packagist.org/packages/phpcompatibility/php-compatibility) [PHPCompatibility](https://github.com/PHPCompatibility/PHPCompatibility) - External PHP_CodeSniffer standard to check your codebase for PHP cross-version compatibility.
+- [![PHPCompatibility Current Version](https://img.shields.io/packagist/v/phpcompatibility/php-compatibility?label=stable)](https://packagist.org/packages/phpcompatibility/php-compatibility) [PHPCompatibility](https://github.com/PHPCompatibility/PHPCompatibility) - External PHP_CodeSniffer standard to check your codebase for PHP cross-version compatibility.
 
 ### Framework/CMS specific rulesets
 
-- [![PHPCompatibilityJoomla Current Version](https://poser.pugx.org/phpcompatibility/phpcompatibility-joomla/v/stable.png)](https://packagist.org/packages/PHPCompatibility/phpcompatibility-joomla) [PHPCompatibilityJoomla](https://github.com/PHPCompatibility/PHPCompatibilityJoomla) - PHPCompatibility ruleset specific for Joomla projects.
-- [![PHPCompatibilityWP Current Version](https://poser.pugx.org/phpcompatibility/phpcompatibility-wp/v/stable.png)](https://packagist.org/packages/PHPCompatibility/phpcompatibility-wp) [PHPCompatibilityWP](https://github.com/PHPCompatibility/PHPCompatibilityWP) - PHPCompatibility ruleset specific for WordPress projects.
+- [![PHPCompatibilityJoomla Current Version](https://img.shields.io/packagist/v/phpcompatibility/phpcompatibility-joomla?label=stable)](https://packagist.org/packages/PHPCompatibility/phpcompatibility-joomla) [PHPCompatibilityJoomla](https://github.com/PHPCompatibility/PHPCompatibilityJoomla) - PHPCompatibility ruleset specific for Joomla projects.
+- [![PHPCompatibilityWP Current Version](https://img.shields.io/packagist/v/phpcompatibility/phpcompatibility-wp?label=stable)](https://packagist.org/packages/PHPCompatibility/phpcompatibility-wp) [PHPCompatibilityWP](https://github.com/PHPCompatibility/PHPCompatibilityWP) - PHPCompatibility ruleset specific for WordPress projects.
 
 ### Polyfill provider specific rulesets
-- [![PHPCompatibilityPasswordCompat Current Version](https://poser.pugx.org/phpcompatibility/phpcompatibility-passwordcompat/v/stable.png)](https://packagist.org/packages/phpcompatibility/phpcompatibility-passwordcompat) [PHPCompatibilityPasswordCompat](https://github.com/PHPCompatibility/PHPCompatibilityPasswordCompat) - PHPCompatibility ruleset specific for projects which use @ircmaxell's [`password_compat`](https://github.com/ircmaxell/password_compat) polyfill library.
-- [![PHPCompatibilityParagonie Current Version](https://poser.pugx.org/PHPCompatibility/phpcompatibility-paragonie/v/stable.png)](https://packagist.org/packages/phpcompatibility/phpcompatibility-paragonie) [PHPCompatibilityParagonie](https://github.com/PHPCompatibility/PHPCompatibilityParagonie) - PHPCompatibility rulesets for projects using either the Paragonie [`random_compat`](https://github.com/paragonie/random_compat) or the Paragonie [`sodium_compat`](https://github.com/paragonie/sodium_compat) polyfill library, or both.
-- [![PHPCompatibilitySymfony Current Version](https://poser.pugx.org/PHPCompatibility/phpcompatibility-symfony/v/stable.png)](https://packagist.org/packages/phpcompatibility/phpcompatibility-symfony) [PHPCompatibilitySymfony](https://github.com/PHPCompatibility/PHPCompatibilitySymfony) - PHPCompatibility rulesets for projects using any of the [PHP polyfill libraries](https://github.com/symfony?utf8=?&q=polyfill) provided by the Symfony project.
+- [![PHPCompatibilityPasswordCompat Current Version](https://img.shields.io/packagist/v/phpcompatibility/phpcompatibility-passwordcompat?label=stable)](https://packagist.org/packages/phpcompatibility/phpcompatibility-passwordcompat) [PHPCompatibilityPasswordCompat](https://github.com/PHPCompatibility/PHPCompatibilityPasswordCompat) - PHPCompatibility ruleset specific for projects which use @ircmaxell's [`password_compat`](https://github.com/ircmaxell/password_compat) polyfill library.
+- [![PHPCompatibilityParagonie Current Version](https://img.shields.io/packagist/v/phpcompatibility/phpcompatibility-paragonie?label=stable)](https://packagist.org/packages/phpcompatibility/phpcompatibility-paragonie) [PHPCompatibilityParagonie](https://github.com/PHPCompatibility/PHPCompatibilityParagonie) - PHPCompatibility rulesets for projects using either the Paragonie [`random_compat`](https://github.com/paragonie/random_compat) or the Paragonie [`sodium_compat`](https://github.com/paragonie/sodium_compat) polyfill library, or both.
+- [![PHPCompatibilitySymfony Current Version](https://img.shields.io/packagist/v/phpcompatibility/phpcompatibility-symfony?label=stable)](https://packagist.org/packages/phpcompatibility/phpcompatibility-symfony) [PHPCompatibilitySymfony](https://github.com/PHPCompatibility/PHPCompatibilitySymfony) - PHPCompatibility rulesets for projects using any of the [PHP polyfill libraries](https://github.com/symfony?utf8=?&q=polyfill) provided by the Symfony project.
     For more details about the available rulesets, please check out the [README of the PHPCompatibilitySymfony](https://github.com/PHPCompatibility/PHPCompatibilitySymfony/blob/master/README.md) repository.
 
 
