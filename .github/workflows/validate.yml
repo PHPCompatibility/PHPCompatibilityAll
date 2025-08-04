@@ -12,6 +12,9 @@ on:
 
 jobs:
   validate:
+    # Don't run the cron job on forks.
+    if: ${{ github.event_name != 'schedule' || github.event.repository.fork == false }}
+
     runs-on: ubuntu-latest
 
     strategy:
