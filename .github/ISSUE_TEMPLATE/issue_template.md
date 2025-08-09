@@ -1,3 +1,8 @@
+---
+name: Generic issue
+about: Use this template for all issues.
+---
+
 <!--
 This repository is only a convenience wrapper to easily install all PHPCompatibility PHP_CodeSniffer standards in one go.
 
