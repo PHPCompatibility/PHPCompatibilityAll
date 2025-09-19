@@ -10,6 +10,8 @@ on:
   # Allow manually triggering the workflow.
   workflow_dispatch:
 
+permissions: {}
+
 jobs:
   validate:
     # Don't run the cron job on forks.
