@@ -10,17 +10,17 @@ Convenience package to install all the external PHP_CodeSniffer rulesets which t
 
 ### Base ruleset
 
-- [![PHPCompatibility Current Version](https://img.shields.io/packagist/v/phpcompatibility/php-compatibility?label=stable)](https://packagist.org/packages/phpcompatibility/php-compatibility) [PHPCompatibility](https://github.com/PHPCompatibility/PHPCompatibility) - External PHP_CodeSniffer standard to check your codebase for PHP cross-version compatibility.
+* [![PHPCompatibility Current Version](https://img.shields.io/packagist/v/phpcompatibility/php-compatibility?label=stable)](https://packagist.org/packages/phpcompatibility/php-compatibility) [PHPCompatibility](https://github.com/PHPCompatibility/PHPCompatibility) - External PHP_CodeSniffer standard to check your codebase for PHP cross-version compatibility.
 
 ### Framework/CMS specific rulesets
 
-- [![PHPCompatibilityJoomla Current Version](https://img.shields.io/packagist/v/phpcompatibility/phpcompatibility-joomla?label=stable)](https://packagist.org/packages/PHPCompatibility/phpcompatibility-joomla) [PHPCompatibilityJoomla](https://github.com/PHPCompatibility/PHPCompatibilityJoomla) - PHPCompatibility ruleset specific for Joomla projects.
-- [![PHPCompatibilityWP Current Version](https://img.shields.io/packagist/v/phpcompatibility/phpcompatibility-wp?label=stable)](https://packagist.org/packages/PHPCompatibility/phpcompatibility-wp) [PHPCompatibilityWP](https://github.com/PHPCompatibility/PHPCompatibilityWP) - PHPCompatibility ruleset specific for WordPress projects.
+* [![PHPCompatibilityJoomla Current Version](https://img.shields.io/packagist/v/phpcompatibility/phpcompatibility-joomla?label=stable)](https://packagist.org/packages/PHPCompatibility/phpcompatibility-joomla) [PHPCompatibilityJoomla](https://github.com/PHPCompatibility/PHPCompatibilityJoomla) - PHPCompatibility ruleset specific for Joomla projects.
+* [![PHPCompatibilityWP Current Version](https://img.shields.io/packagist/v/phpcompatibility/phpcompatibility-wp?label=stable)](https://packagist.org/packages/PHPCompatibility/phpcompatibility-wp) [PHPCompatibilityWP](https://github.com/PHPCompatibility/PHPCompatibilityWP) - PHPCompatibility ruleset specific for WordPress projects.
 
 ### Polyfill provider specific rulesets
-- [![PHPCompatibilityPasswordCompat Current Version](https://img.shields.io/packagist/v/phpcompatibility/phpcompatibility-passwordcompat?label=stable)](https://packagist.org/packages/phpcompatibility/phpcompatibility-passwordcompat) [PHPCompatibilityPasswordCompat](https://github.com/PHPCompatibility/PHPCompatibilityPasswordCompat) - PHPCompatibility ruleset specific for projects which use @ircmaxell's [`password_compat`](https://github.com/ircmaxell/password_compat) polyfill library.
-- [![PHPCompatibilityParagonie Current Version](https://img.shields.io/packagist/v/phpcompatibility/phpcompatibility-paragonie?label=stable)](https://packagist.org/packages/phpcompatibility/phpcompatibility-paragonie) [PHPCompatibilityParagonie](https://github.com/PHPCompatibility/PHPCompatibilityParagonie) - PHPCompatibility rulesets for projects using either the Paragonie [`random_compat`](https://github.com/paragonie/random_compat) or the Paragonie [`sodium_compat`](https://github.com/paragonie/sodium_compat) polyfill library, or both.
-- [![PHPCompatibilitySymfony Current Version](https://img.shields.io/packagist/v/phpcompatibility/phpcompatibility-symfony?label=stable)](https://packagist.org/packages/phpcompatibility/phpcompatibility-symfony) [PHPCompatibilitySymfony](https://github.com/PHPCompatibility/PHPCompatibilitySymfony) - PHPCompatibility rulesets for projects using any of the [PHP polyfill libraries](https://github.com/symfony?utf8=?&q=polyfill) provided by the Symfony project.
+* [![PHPCompatibilityPasswordCompat Current Version](https://img.shields.io/packagist/v/phpcompatibility/phpcompatibility-passwordcompat?label=stable)](https://packagist.org/packages/phpcompatibility/phpcompatibility-passwordcompat) [PHPCompatibilityPasswordCompat](https://github.com/PHPCompatibility/PHPCompatibilityPasswordCompat) - PHPCompatibility ruleset specific for projects which use @ircmaxell's [`password_compat`](https://github.com/ircmaxell/password_compat) polyfill library.
+* [![PHPCompatibilityParagonie Current Version](https://img.shields.io/packagist/v/phpcompatibility/phpcompatibility-paragonie?label=stable)](https://packagist.org/packages/phpcompatibility/phpcompatibility-paragonie) [PHPCompatibilityParagonie](https://github.com/PHPCompatibility/PHPCompatibilityParagonie) - PHPCompatibility rulesets for projects using either the Paragonie [`random_compat`](https://github.com/paragonie/random_compat) or the Paragonie [`sodium_compat`](https://github.com/paragonie/sodium_compat) polyfill library, or both.
+* [![PHPCompatibilitySymfony Current Version](https://img.shields.io/packagist/v/phpcompatibility/phpcompatibility-symfony?label=stable)](https://packagist.org/packages/phpcompatibility/phpcompatibility-symfony) [PHPCompatibilitySymfony](https://github.com/PHPCompatibility/PHPCompatibilitySymfony) - PHPCompatibility rulesets for projects using any of the [PHP polyfill libraries](https://github.com/symfony?utf8=?&q=polyfill) provided by the Symfony project.
     For more details about the available rulesets, please check out the [README of the PHPCompatibilitySymfony](https://github.com/PHPCompatibility/PHPCompatibilitySymfony/blob/master/README.md) repository.
 
 
@@ -111,34 +111,34 @@ For more information, visit https://www.gnu.org/copyleft/lesser.html
 
 This is a maintenance release.
 
-- The recommended version of the [Composer PHPCS plugin] is now `^1.0.0`.
-- README: Fixed some broken badges.
-- General housekeeping and maintenance. Including a contribution by [@fredden].
+* The recommended version of the [Composer PHPCS plugin] is now `^1.0.0`.
+* README: Fixed some broken badges.
+* General housekeeping and maintenance. Including a contribution by [@fredden].
 
 ### 1.1.3 - 2022-10-30
 
-- README: Updated the installation instructions for [compatibility with Composer >= 2.2][composer22announce].
-- Composer: The package will now identify itself as a static analysis tool. Thanks [@GaryJones]!
-- Other housekeeping and minor documentation updates.
+* README: Updated the installation instructions for [compatibility with Composer >= 2.2][composer22announce].
+* Composer: The package will now identify itself as a static analysis tool. Thanks [@GaryJones]!
+* Other housekeeping and minor documentation updates.
 
 [composer22announce]: https://blog.packagist.com/composer-2-2/#more-secure-plugin-execution
 
 ### 1.1.2 - 2021-02-16
 
-- The recommended version of the [Composer PHPCS plugin] is now `^0.7.0`, which offers compatibility with Composer 2.0.
-- The rulesets are now also tested against PHP 7.4 and 8.0.
+* The recommended version of the [Composer PHPCS plugin] is now `^0.7.0`, which offers compatibility with Composer 2.0.
+* The rulesets are now also tested against PHP 7.4 and 8.0.
     Note: full PHP 7.4 support is only available in combination with PHP_CodeSniffer >= 3.5.6.
     Note: runtime PHP 8.0 support is only available in combination with PHP_CodeSniffer >= 3.5.7, full support is expected in PHP_CodeSniffer 3.6.0.
 
 ### 1.1.1 - 2019-08-29
 
-- The recommended version of the [Composer PHPCS plugin] is now `^0.5.0`.
-- The rulesets are now also tested against PHP 7.3.
+* The recommended version of the [Composer PHPCS plugin] is now `^0.5.0`.
+* The rulesets are now also tested against PHP 7.3.
     Note: full PHP 7.3 support is only available in combination with PHP_CodeSniffer 2.9.2 or 3.3.1+ due to an incompatibility within PHP_CodeSniffer itself.
 
 ### 1.1.0 - 2018-10-07
 
-- Added the new PHPCompatibilityPasswordCompat, PHPCompatibilityParagonie, PHPCompatibilitySymfony rulesets.
+*Added the new PHPCompatibilityPasswordCompat, PHPCompatibilityParagonie, PHPCompatibilitySymfony rulesets.
 
 ### 1.0.0 - 2018-07-17
 
