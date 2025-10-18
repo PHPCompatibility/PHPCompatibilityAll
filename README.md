@@ -107,6 +107,10 @@ For more information, visit https://www.gnu.org/copyleft/lesser.html
 
 ## Changelog
 
+### 1.1.5 - 2025-10-18
+
+* General housekeeping and maintenance.
+
 ### 1.1.4 - 2025-01-16
 
 This is a maintenance release.
