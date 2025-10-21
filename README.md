@@ -1,7 +1,7 @@
+# PHPCompatibilityAll
+
 [![License](https://img.shields.io/github/license/PHPCompatibility/PHPCompatibilityAll?color=00a7a7)](https://github.com/PHPCompatibility/PHPCompatibilityAll/blob/master/LICENSE)
 [![Build Status](https://github.com/PHPCompatibility/PHPCompatibilityAll/actions/workflows/validate.yml/badge.svg?branch=master)](https://github.com/PHPCompatibility/PHPCompatibilityAll/actions/workflows/validate.yml)
-
-# PHPCompatibilityAll
 
 Convenience package to install all the external PHP_CodeSniffer rulesets which the [PHPCompatibility organisation](https://github.com/PHPCompatibility) maintains, in one go using Composer.
 
@@ -85,8 +85,9 @@ For example:
 # For a Joomla project which should be compatible with PHP 5.3 up to and including PHP 7.0:
 ./vendor/bin/phpcs -p . --standard=PHPCompatibilityJoomla --runtime-set testVersion 5.3-7.0
 
-# For a project using both the Paragonie Sodium Compat polyfill as well as the Symfony PHP 7.1 polyfill and which should be compatible with PHP 5.4 and higher:
-./vendor/bin/phpcs -p . --standard=PHPCompatibilityParagonieSodiumCompat,PHPCompatibilitySymfonyPolyfillPHP71 --runtime-set testVersion 5.4-
+# For a project using both the Paragonie Sodium Compat polyfill, as well as the Symfony
+# PHP 7.1 polyfill and which should be compatible with PHP 5.4 and higher:
+vendor/bin/phpcs -p . --standard=PHPCompatibilityParagonieSodiumCompat,PHPCompatibilitySymfonyPolyfillPHP71 --runtime-set testVersion 5.4-
 ```
 
 For more detailed information, see the README of the main [PHPCompatibility](https://github.com/PHPCompatibility/PHPCompatibility#sniffing-your-code-for-compatibility-with-specific-php-versions) standard.
@@ -102,4 +103,4 @@ By default PHP_CodeSniffer will analyse PHP, JavaScript and CSS files. As the PH
 ## License
 
 All code within the PHPCompatibility organisation is released under the GNU Lesser General Public License (LGPL).
-For more information, visit https://www.gnu.org/copyleft/lesser.html
+For more information, visit <https://www.gnu.org/licenses/lgpl-3.0.html>.
