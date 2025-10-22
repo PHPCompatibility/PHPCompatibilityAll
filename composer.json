@@ -19,19 +19,18 @@
     "security": "https://github.com/PHPCompatibility/PHPCompatibilityAll/security/policy"
   },
   "require" : {
-    "phpcompatibility/php-compatibility" : "*",
-    "phpcompatibility/phpcompatibility-wp" : "*",
-    "phpcompatibility/phpcompatibility-joomla" : "*",
-    "phpcompatibility/phpcompatibility-paragonie" : "*",
-    "phpcompatibility/phpcompatibility-passwordcompat" : "*",
-    "phpcompatibility/phpcompatibility-symfony" : "*"
-  },
-  "suggest" : {
-    "dealerdirect/phpcodesniffer-composer-installer": "^1.0 || This Composer plugin will sort out the PHP_CodeSniffer 'installed_paths' automatically.",
-    "roave/security-advisories": "dev-master || Helps prevent installing dependencies with known security issues."
+    "phpcompatibility/php-compatibility" : "^10.0.0@dev",
+    "phpcompatibility/phpcompatibility-wp" : "^3.0.0@dev",
+    "phpcompatibility/phpcompatibility-joomla" : "^3.0.0@dev",
+    "phpcompatibility/phpcompatibility-paragonie" : "^2.0.0@dev",
+    "phpcompatibility/phpcompatibility-passwordcompat" : "^2.0.0@dev",
+    "phpcompatibility/phpcompatibility-symfony" : "^2.0.0@dev"
   },
   "prefer-stable": true,
   "config": {
+    "allow-plugins": {
+      "dealerdirect/phpcodesniffer-composer-installer": true
+    },
     "lock": false
   }
 }
