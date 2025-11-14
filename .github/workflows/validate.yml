@@ -4,9 +4,6 @@ on:
   # Run on all pushes and pull requests.
   push:
   pull_request:
-  # Also run this workflow on day 15 of every month as the repo isn't that active.
-  schedule:
-    - cron: '0 0 15 * *'
   # Allow manually triggering the workflow.
   workflow_dispatch:
 
@@ -14,32 +11,4 @@ permissions: {}
 
 jobs:
   validate:
-    # Don't run the cron job on forks.
-    if: ${{ github.event_name != 'schedule' || github.event.repository.fork == false }}
-
-    runs-on: ubuntu-latest
-
-    strategy:
-      fail-fast: true
-      matrix:
-        php: ['5.4', 'latest']
-
-    name: PHP ${{ matrix.php }}
-
-    steps:
-      - name: Checkout code
-        uses: actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8 # v5.0.0
-        with:
-          persist-credentials: false
-
-      - name: Install PHP
-        uses: shivammathur/setup-php@bf6b4fbd49ca58e4608c9c89fba0b8d90bd2a39f # 2.35.5
-        with:
-          php-version: ${{ matrix.php }}
-          coverage: none
-
-      - name: Install dependencies
-        run: composer update --no-interaction --no-progress
-
-      - name: Validate Composer installation
-        run: composer validate --no-check-all --strict
+    uses: ./.github/workflows/reusable-validate.yml

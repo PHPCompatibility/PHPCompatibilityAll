@@ -1,0 +1,15 @@
+name: Validate Cronjob
+
+on:
+  # Run the validation workflow on day 15 of every month as the repo isn't that active.
+  schedule:
+    - cron: '0 0 15 * *'
+
+permissions: {}
+
+jobs:
+  validate:
+    # Don't run the cron job on forks.
+    if: ${{ github.event.repository.fork == false }}
+
+    uses: ./.github/workflows/reusable-validate.yml
