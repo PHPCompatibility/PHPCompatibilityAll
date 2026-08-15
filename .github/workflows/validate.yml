@@ -7,8 +7,13 @@ on:
   # Allow manually triggering the workflow.
   workflow_dispatch:
 
+# Permissions should be configured at the job level.
 permissions: {}
 
 jobs:
   validate:
+    permissions:
+      contents: read # To clone the repo.
+
+    name: Validate
     uses: ./.github/workflows/reusable-validate.yml
