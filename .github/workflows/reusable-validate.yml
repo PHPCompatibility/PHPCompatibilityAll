@@ -3,11 +3,13 @@ name: Validate
 on:
   workflow_call:
 
+# Permissions should be configured at the job level.
 permissions: {}
 
 jobs:
   validate:
-    runs-on: ubuntu-latest
+    permissions:
+      contents: read # To clone the repo.
 
     strategy:
       fail-fast: true
@@ -15,6 +17,7 @@ jobs:
         php: ['5.4', 'latest']
 
     name: PHP ${{ matrix.php }}
+    runs-on: ubuntu-latest
 
     steps:
       - name: Checkout code
