@@ -19,17 +19,17 @@ If you use PHPCompatibility, please fund this work by setting up a monthly contr
 
 ### Base ruleset
 
-* [![PHPCompatibility Current Version](https://img.shields.io/packagist/v/phpcompatibility/php-compatibility?label=stable)](https://packagist.org/packages/phpcompatibility/php-compatibility) [PHPCompatibility] - External PHP_CodeSniffer standard to check your codebase for PHP cross-version compatibility.
+* [![PHPCompatibility Current Version](https://img.shields.io/packagist/v/phpcompatibility/php-compatibility?include_prereleases)](https://packagist.org/packages/phpcompatibility/php-compatibility) [PHPCompatibility] - External PHP_CodeSniffer standard to check your codebase for PHP cross-version compatibility.
 
 ### Framework/CMS specific rulesets
 
-* [![PHPCompatibilityJoomla Current Version](https://img.shields.io/packagist/v/phpcompatibility/phpcompatibility-joomla?label=stable)](https://packagist.org/packages/PHPCompatibility/phpcompatibility-joomla) [PHPCompatibilityJoomla] - PHPCompatibility ruleset specific for Joomla projects.
-* [![PHPCompatibilityWP Current Version](https://img.shields.io/packagist/v/phpcompatibility/phpcompatibility-wp?label=stable)](https://packagist.org/packages/PHPCompatibility/phpcompatibility-wp) [PHPCompatibilityWP] - PHPCompatibility ruleset specific for WordPress projects.
+* [![PHPCompatibilityJoomla Current Version](https://img.shields.io/packagist/v/phpcompatibility/phpcompatibility-joomla?include_prereleases)](https://packagist.org/packages/PHPCompatibility/phpcompatibility-joomla) [PHPCompatibilityJoomla] - PHPCompatibility ruleset specific for Joomla projects.
+* [![PHPCompatibilityWP Current Version](https://img.shields.io/packagist/v/phpcompatibility/phpcompatibility-wp?include_prereleases)](https://packagist.org/packages/PHPCompatibility/phpcompatibility-wp) [PHPCompatibilityWP] - PHPCompatibility ruleset specific for WordPress projects.
 
 ### Polyfill provider specific rulesets
-* [![PHPCompatibilityPasswordCompat Current Version](https://img.shields.io/packagist/v/phpcompatibility/phpcompatibility-passwordcompat?label=stable)](https://packagist.org/packages/phpcompatibility/phpcompatibility-passwordcompat) [PHPCompatibilityPasswordCompat] - PHPCompatibility ruleset specific for projects which use @ircmaxell's [`password_compat`] polyfill library.
-* [![PHPCompatibilityParagonie Current Version](https://img.shields.io/packagist/v/phpcompatibility/phpcompatibility-paragonie?label=stable)](https://packagist.org/packages/phpcompatibility/phpcompatibility-paragonie) [PHPCompatibilityParagonie] - PHPCompatibility rulesets for projects using either the Paragonie [`random_compat`] or the Paragonie [`sodium_compat`] polyfill library, or both.
-* [![PHPCompatibilitySymfony Current Version](https://img.shields.io/packagist/v/phpcompatibility/phpcompatibility-symfony?label=stable)](https://packagist.org/packages/phpcompatibility/phpcompatibility-symfony) [PHPCompatibilitySymfony] - PHPCompatibility rulesets for projects using any of the [PHP polyfill libraries] provided by the Symfony project.
+* [![PHPCompatibilityPasswordCompat Current Version](https://img.shields.io/packagist/v/phpcompatibility/phpcompatibility-passwordcompat?include_prereleases)](https://packagist.org/packages/phpcompatibility/phpcompatibility-passwordcompat) [PHPCompatibilityPasswordCompat] - PHPCompatibility ruleset specific for projects which use @ircmaxell's [`password_compat`] polyfill library.
+* [![PHPCompatibilityParagonie Current Version](https://img.shields.io/packagist/v/phpcompatibility/phpcompatibility-paragonie?include_prereleases)](https://packagist.org/packages/phpcompatibility/phpcompatibility-paragonie) [PHPCompatibilityParagonie] - PHPCompatibility rulesets for projects using either the Paragonie [`random_compat`] or the Paragonie [`sodium_compat`] polyfill library, or both.
+* [![PHPCompatibilitySymfony Current Version](https://img.shields.io/packagist/v/phpcompatibility/phpcompatibility-symfony?include_prereleases)](https://packagist.org/packages/phpcompatibility/phpcompatibility-symfony) [PHPCompatibilitySymfony] - PHPCompatibility rulesets for projects using any of the [PHP polyfill libraries] provided by the Symfony project.  s
     For more details about the available rulesets, please check out the [README of the PHPCompatibilitySymfony][PHPCompatibilitySymfony-readme] repository.
 
 
