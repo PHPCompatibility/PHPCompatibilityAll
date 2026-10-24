@@ -1,30 +1,43 @@
 {
-  "name" : "phpcompatibility/phpcompatibility-all",
-  "description" : "A set of rulesets for PHP_CodeSniffer to check for PHP cross-version compatibility issues and opportunities to modernize code in PHP projects.",
-  "type" : "phpcodesniffer-standard",
-  "keywords" : [ "compatibility", "phpcs", "standards", "static analysis", "joomla", "wordpress", "polyfills", "paragonie", "password_compat", "symfony" ],
-  "homepage" : "http://phpcompatibility.com/",
-  "license" : "LGPL-3.0-or-later",
-  "authors" : [ {
-    "name" : "Wim Godden",
-    "role" : "lead"
-  },
-  {
-    "name" : "Juliette Reinders Folmer",
-    "role" : "lead"
-  } ],
-  "support" : {
-    "issues" : "https://github.com/PHPCompatibility/PHPCompatibilityAll/issues",
-    "source" : "https://github.com/PHPCompatibility/PHPCompatibilityAll",
+  "name": "phpcompatibility/phpcompatibility-all",
+  "description": "A set of rulesets for PHP_CodeSniffer to check for PHP cross-version compatibility issues and opportunities to modernize code in PHP projects.",
+  "license": "LGPL-3.0-or-later",
+  "type": "phpcodesniffer-standard",
+  "keywords": [
+    "compatibility",
+    "phpcs",
+    "standards",
+    "static analysis",
+    "joomla",
+    "wordpress",
+    "polyfills",
+    "paragonie",
+    "password_compat",
+    "symfony"
+  ],
+  "authors": [
+    {
+      "name": "Wim Godden",
+      "role": "lead"
+    },
+    {
+      "name": "Juliette Reinders Folmer",
+      "role": "lead"
+    }
+  ],
+  "homepage": "http://phpcompatibility.com/",
+  "support": {
+    "issues": "https://github.com/PHPCompatibility/PHPCompatibilityAll/issues",
+    "source": "https://github.com/PHPCompatibility/PHPCompatibilityAll",
     "security": "https://github.com/PHPCompatibility/PHPCompatibilityAll/security/policy"
   },
-  "require" : {
-    "phpcompatibility/php-compatibility" : "^10.0.0@dev",
-    "phpcompatibility/phpcompatibility-wp" : "^3.0.0@dev",
-    "phpcompatibility/phpcompatibility-joomla" : "^3.0.0@dev",
-    "phpcompatibility/phpcompatibility-paragonie" : "^2.0.0@dev",
-    "phpcompatibility/phpcompatibility-passwordcompat" : "^2.0.0@dev",
-    "phpcompatibility/phpcompatibility-symfony" : "^2.0.0@dev"
+  "require": {
+    "phpcompatibility/php-compatibility": "^10.0.0@dev",
+    "phpcompatibility/phpcompatibility-joomla": "^3.0.0@dev",
+    "phpcompatibility/phpcompatibility-paragonie": "^2.0.0@dev",
+    "phpcompatibility/phpcompatibility-passwordcompat": "^2.0.0@dev",
+    "phpcompatibility/phpcompatibility-symfony": "^2.0.0@dev",
+    "phpcompatibility/phpcompatibility-wp": "^3.0.0@dev"
   },
   "prefer-stable": true,
   "config": {
