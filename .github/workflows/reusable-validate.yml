@@ -30,7 +30,7 @@ jobs:
     strategy:
       fail-fast: true
       matrix:
-        php: ['5.4', 'latest']
+        php: ['7.2', 'latest']
 
     name: PHP ${{ matrix.php }}
     runs-on: ubuntu-latest
